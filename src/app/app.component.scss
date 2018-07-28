@@ -71,6 +71,15 @@ body {
           i {
             color: #ffffff;
           }
+          .icon_notification {
+            width: 6px;
+            height: 6px;
+            background-color: #a1ffff;
+            box-shadow: 0 0 10px 0 #a1ffff;
+            border-radius: 50%;
+            margin-bottom: 24px;
+            margin-left: -7px;
+          }
         }
         .user {
           width: 209px;
@@ -118,7 +127,6 @@ body {
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        
         a {
           text-align: center;
           opacity: 0.75;
@@ -131,8 +139,7 @@ body {
           letter-spacing: normal;
           text-align: center;
           color: #b7bec7;
-
-          i{
+          i {
             width: 27.5px;
             height: 17.5px;
             object-fit: contain;
@@ -140,23 +147,21 @@ body {
             color: #b7bec7;
           }
         }
-
         &.selected {
-            border-left: 4px solid #b4ec51;
-            a{
-                opacity: 1;
-                color: #7a838f; 
-                font-weight: 500;
-            }
+          border-left: 4px solid #b4ec51;
+          a {
+            opacity: 1;
+            color: #7a838f;
+            font-weight: 500;
+          }
         }
-
-        &:hover{
-            border-left: 4px solid #b4ec51;
-            a{
-                opacity: 1;
-                color: #7a838f; 
-                font-weight: 500;
-            }
+        &:hover {
+          border-left: 4px solid #b4ec51;
+          a {
+            opacity: 1;
+            color: #7a838f;
+            font-weight: 500;
+          }
         }
       }
     }
@@ -181,13 +186,12 @@ body {
         text-align: center;
         color: #b7bec7;
       }
-
-      &:hover{
+      &:hover {
         border-left: 4px solid #b4ec51;
-        a{
-            opacity: 1;
-            color: #7a838f; 
-            font-weight: 500;
+        a {
+          opacity: 1;
+          color: #7a838f;
+          font-weight: 500;
         }
       }
     }
@@ -200,6 +204,5 @@ body {
     position: fixed;
     z-index: 10;
     overflow: auto;
-    
   }
 }
