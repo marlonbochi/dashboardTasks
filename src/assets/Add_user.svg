@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Add_user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,30 C23.2842712,30 30,23.2842712 30,15 C30,6.71572875 23.2842712,0 15,0 C6.71572875,0 0,6.71572875 0,15 C0,23.2842712 6.71572875,30 15,30 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Add_user" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <use id="Oval-2" stroke="#9898AE" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="2,2" xlink:href="#path-1"></use>
+        <polygon id="add---material" fill="#9898AE" points="20.64 15.64 15.64 15.64 15.64 20.64 14 20.64 14 15.64 9 15.64 9 14 14 14 14 9 15.64 9 15.64 14 20.64 14"></polygon>
+    </g>
+</svg>

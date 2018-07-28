@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('dashboard-inevent App', () => {
+describe('dashboard-tasks App', () => {
   let page: AppPage;
 
   beforeEach(() => {

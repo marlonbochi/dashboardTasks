@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="41px" viewBox="0 0 39 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>event_note - material</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-10.8%" y="-1.2%" width="121.7%" height="102.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.78964821   0 0 0 0 0.819767244   0 0 0 0 0.872475553  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Eventos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.75">
+        <g id="Board-view" transform="translate(-41.000000, -280.000000)" fill="#B7BEC7">
+            <g id="Side-menu" filter="url(#filter-1)">
+                <g id="Nav-3" transform="translate(31.000000, 286.000000)">
+                    <path d="M31.77,16.29 L31.77,18.75 L22.98,18.75 L22.98,16.29 L31.77,16.29 Z M37.98,22.5 L37.98,8.79 L20.52,8.79 L20.52,22.5 L37.98,22.5 Z M37.98,2.52 C38.6600034,2.52 39.2499975,2.7699975 39.75,3.27 C40.2500025,3.7700025 40.5,4.3599966 40.5,5.04 L40.5,22.5 C40.5,23.1800034 40.2500025,23.7699975 39.75,24.27 C39.2499975,24.7700025 38.6600034,25.02 37.98,25.02 L20.52,25.02 C19.8199965,25.02 19.2250024,24.7700025 18.735,24.27 C18.2449976,23.7699975 18,23.1800034 18,22.5 L18,5.04 C18,4.3599966 18.2449976,3.7700025 18.735,3.27 C19.2250024,2.7699975 19.8199965,2.52 20.52,2.52 L21.75,2.52 L21.75,0 L24.27,0 L24.27,2.52 L34.23,2.52 L34.23,0 L36.75,0 L36.75,2.52 L37.98,2.52 Z M35.52,11.25 L35.52,13.77 L22.98,13.77 L22.98,11.25 L35.52,11.25 Z" id="event_note---material"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

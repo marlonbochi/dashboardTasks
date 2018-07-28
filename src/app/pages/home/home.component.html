@@ -1,0 +1,140 @@
+<div class="home-page">
+  <div class="titlePage">
+    <div class="divAlignLeft">
+      <h2>Studio Board</h2>
+      <a href="#" class="btnOptionTitle">
+        <img src="../../../assets/Drop down.svg" alt="">
+      </a>
+    </div>
+    <div class="divAlignRight">
+      <a href="#" class="userSelecteds">
+        <img src="../../../assets/pic_holder.svg" alt="">
+      </a>
+      <a href="#" class="userSelecteds">
+        <img src="../../../assets/pic_holder.svg" alt="">
+      </a>
+      <a href="#" class="userSelecteds">
+        <img src="../../../assets/pic_holder.svg" alt="">
+      </a>
+      <a href="#" class="userSelecteds addUsers">
+        <img src="../../../assets/Add_user.svg" alt="">
+      </a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="boards">
+    <div class="board">
+      <div class="board_border"></div>
+      <div class="titleBoard">
+        <h3>Backlog</h3>
+        <a href="#" class="help">
+          <i class="material-icons">help_outline</i>
+        </a>
+      </div>
+      <div class="tasks">
+        <div class="task" *ngFor="let foi of example">
+          <a href="#" class="priority low">Low priority</a>
+          <p class="textTask">Company website redesign.</p>
+          <div class="footerTask">
+            <div class="infoTask">
+              <img src="../../../assets/icon_material.svg" alt=""> 1
+              <img src="../../../assets/icon_attachment.svg" alt=""> 2
+            </div>
+            <div class="usersTask">
+              <a href="#" class="addUser">
+                <img src="../../../assets/Add_user.svg" alt="">
+              </a>
+              <a href="#" class="user">
+                <img src="../../../assets/pic_holder.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divAddTask">
+        <a href="#" class="addTask">
+          Add task
+        </a>
+        <img src="../../../assets/add_circle_outline - material.svg" alt="">
+      </div>
+    </div>
+
+    <div class="board">
+      <div class="board_border in_progress"></div>
+      <div class="titleBoard">
+        <h3>In Progress</h3>
+        <a href="#" class="help">
+          <i class="material-icons">help_outline</i>
+        </a>
+      </div>
+      <div class="tasks">
+        <div class="task" *ngFor="let foi of example">
+          <a href="#" class="priority high">High priority</a>
+          <p class="textTask">Research and strategy for upcoming projects.</p>
+          <div class="footerTask">
+            <div class="infoTask">
+              <img src="../../../assets/icon_material.svg" alt=""> 1
+              <img src="../../../assets/icon_attachment.svg" alt=""> 2
+            </div>
+            <div class="usersTask">
+              <a href="#" class="addUser">
+                <img src="../../../assets/Add_user.svg" alt="">
+              </a>
+              <a href="#" class="user">
+                <img src="../../../assets/pic_holder.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divAddTask">
+        <a href="#" class="addTask">
+          Add task
+        </a>
+        <img src="../../../assets/add_circle_outline - material.svg" alt="">
+      </div>
+    </div>
+
+    <div class="board" *ngFor="let opt of example">
+      <div class="board_border"></div>
+      <div class="titleBoard">
+        <h3>Done</h3>
+        <a href="#" class="help">
+          <i class="material-icons">help_outline</i>
+        </a>
+      </div>
+      <div class="tasks">
+        <div class="task" *ngFor="let foi of example">
+          <a href="#" class="priority med">Med priority</a>
+          <p class="textTask">Mobile app login process prototype.</p>
+          <div class="footerTask">
+            <div class="infoTask">
+              <img src="../../../assets/icon_material.svg" alt=""> 1
+              <img src="../../../assets/icon_attachment.svg" alt=""> 2
+            </div>
+            <div class="usersTask">
+              <a href="#" class="addUser">
+                <img src="../../../assets/Add_user.svg" alt="">
+              </a>
+              <a href="#" class="user">
+                <img src="../../../assets/pic_holder.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divAddTask">
+        <a href="#" class="addTask">
+          Add task
+        </a>
+        <img src="../../../assets/add_circle_outline - material.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <a class="divBtnAddBoard" href="#">
+    <i class="material-icons">add</i>
+  </a>
+
+  <div class="clear"></div>
+</div>

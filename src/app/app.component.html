@@ -1,20 +1,81 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!doctype html>
+<html lang="pt-br">
 
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navHeader">
+      <div class="divTitle">
+        <h2>dev</h2>
+      </div>
+      <form action="#" class="formSearch">
+        <i class="material-icons">search</i>
+        <input type="text" class="txtSearch" placeholder="Search for tasks...">
+      </form>
+
+      <div class="profile">
+        <a href="#" class="messages">
+          <i class="material-icons">mail_outline</i>
+        </a>
+        <a href="#" class="notification">
+          <i class="material-icons">notifications_none</i>
+        </a>
+        <div class="user">
+          <h4>Jan Teste</h4>
+          <img src="../assets/avatar/pic1.svg">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="#">
+          <img src="../assets/group - material.svg" alt="">
+          <h4>Manage</h4>
+        </a>
+      </li>
+      <li class="selected">
+        <a href="#">
+          <img src="../assets/dns - material.svg" alt="">
+          <h4>Boards</h4>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="../assets/event_note - material.svg" alt="">
+          <h4>Schedule</h4>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="../assets/insert_chart - material.svg" alt="">
+          <h4>Reports</h4>
+        </a>
+      </li>
+    </ul>
+
+    <div class="settings">
+      <a href="#">
+        <img src="../assets/settings - material.svg" alt="">
+        <h4>Settings</h4>
+      </a>
+    </div>
+  </nav>
+  <div class="pages">
+    <router-outlet></router-outlet>
+  </div>
+</body>
+
+</html>
