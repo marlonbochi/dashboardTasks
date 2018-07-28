@@ -8,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   example: any = [1,2,3,4];
-  constructor() { }
+  constructor() {
+
+      
+   }
 
   ngOnInit() {
+  }
+
+  ngAfterViewInit(){
+    let elements: NodeListOf<Element> = document.getElementsByClassName("board");
+      let width =  elements.length * 320;
+
+      let boardsElement = document.getElementById("boards") as HTMLBaseElement;
+
+      boardsElement.style.width = width + "px";
   }
 
 }

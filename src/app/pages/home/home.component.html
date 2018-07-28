@@ -22,7 +22,7 @@
     </div>
   </div>
   <div class="clear"></div>
-  <div class="boards">
+  <div class="boards" id="boards">
     <div class="board">
       <div class="board_border"></div>
       <div class="titleBoard">
@@ -31,7 +31,7 @@
           <i class="material-icons">help_outline</i>
         </a>
       </div>
-      <div class="tasks">
+      <div class="tasks" dragula="tasks">
         <div class="task" *ngFor="let foi of example">
           <a href="#" class="priority low">Low priority</a>
           <p class="textTask">Company website redesign.</p>
@@ -67,7 +67,7 @@
           <i class="material-icons">help_outline</i>
         </a>
       </div>
-      <div class="tasks">
+      <div class="tasks" dragula="tasks">
         <div class="task" *ngFor="let foi of example">
           <a href="#" class="priority high">High priority</a>
           <p class="textTask">Research and strategy for upcoming projects.</p>
@@ -95,7 +95,7 @@
       </div>
     </div>
 
-    <div class="board" *ngFor="let opt of example">
+    <div class="board" *ngFor="let opt of example" >
       <div class="board_border"></div>
       <div class="titleBoard">
         <h3>Done</h3>
@@ -103,7 +103,7 @@
           <i class="material-icons">help_outline</i>
         </a>
       </div>
-      <div class="tasks">
+      <div class="tasks" dragula="tasks">
         <div class="task" *ngFor="let foi of example">
           <a href="#" class="priority med">Med priority</a>
           <p class="textTask">Mobile app login process prototype.</p>
@@ -130,6 +130,7 @@
         <img src="../../../assets/add_circle_outline - material.svg" alt="">
       </div>
     </div>
+    <div class="clear"></div>
   </div>
 
   <a class="divBtnAddBoard" href="#">
